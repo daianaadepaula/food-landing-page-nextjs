@@ -11,7 +11,7 @@ export default function Services() {
 
 					<span className="text-[#fe6a6a] text-xs">What we Serve</span>
 
-					<div className="flex flex-col text-center w-full mb-20">
+					<div className="flex flex-col text-center w-full mb-20 mt-3">
 						<h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
 							Fruit And Vegetable Delivered To Your Home
 						</h1>
