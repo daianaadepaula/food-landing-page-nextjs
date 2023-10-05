@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Why({img, title, subTitle, para, classes, headColor, buttonClass}) {
+export default function Why({img, title, subTitle, para, classes, headColor, buttonClass, class2}) {
 	return(
 		<>
 			<section className="text-gray-600 body-font">
@@ -10,7 +10,7 @@ export default function Why({img, title, subTitle, para, classes, headColor, but
 							<Image className="object-cover object-center rounded" alt="hero" src={`/img/${img}`} width={500} height={600} />
 					</div>
 
-					<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-start">
+					<div className={`lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-start ${class2}`}>
 
 						<span className={`text-xs ${headColor}`}>{title}</span>
 						<h1 className="title-font md:text-6xl sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">{subTitle}</h1>
