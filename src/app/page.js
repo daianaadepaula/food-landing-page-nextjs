@@ -27,6 +27,18 @@ export default function Home() {
 				buttonClass="" 
 				class2="lg:pr-24 md:pr-16"
 			/>
+			<Why 
+				img="mobile mockup.png" 
+				title="Download our app" 
+				subTitle="Get The Groceries App Order More Easily" 
+				para="At vero eos et accusamus et iusto odio dignissimos ducimus blanditiis praesen voluptatum deleniti atque corrupti quos."
+				classes="md:flex-row"
+				mainclass="bg-[#fef5f5]" 
+				headColor="text-[#f54748]" 
+				buttonClass="" 
+				class2="lg:pr-24 md:pr-16"
+				imageClass=""
+			/>
 
 		</>
   )
