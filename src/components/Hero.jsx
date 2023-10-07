@@ -1,5 +1,5 @@
 import Image from "next/image";
-// import { BsFillPlayFill } from "react-icons/Bs";
+import { BsFillPlayFill } from "react-icons/bs";
 
 export default function Hero() {
 	return(
@@ -18,7 +18,7 @@ export default function Hero() {
 							<button className="inline-flex text-white bg-[#f86061] border-0 py-2 px-6 focus:outline-none hover:bg-[#da4e4e] rounded text-lg">Order Now</button>
 
 							<button className="ml-4 inline-flex text-black bg-transparent border-0 py-2 px-6 focus:outline-none hover:bg-[#da4e4e] hover:text-white justify-center align-middle items-center rounded text-lg">
-							{/* <BsFillPlayFill className="mr-5 text-[#fdc55e]" /> */}
+							<BsFillPlayFill className="mr-5 text-[#fdc55e]" />
 								Order Process</button>
 						</div>
 					</div>
