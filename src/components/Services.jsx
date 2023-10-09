@@ -5,7 +5,7 @@ export default function Services() {
 		<>
 			<section className="text-gray-600 body-font bg-[#fef5f5]">
 
-				<div className="container px-5 py-24 mx-auto">
+				<div className="container px-5 md:py-24 py-10 mx-auto">
 
 					<div className="flex flex-col text-center w-full mb-20">
 

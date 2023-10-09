@@ -33,3 +33,24 @@ npm install
 ```bash
 yarn dev
 ```
+
+## Technologies used
+
+### Front end
+- VS Code
+- Next
+- Tailwind CSS
+- Tailblocks
+
+### Deployment in production
+- Front end web: Netlify
+
+## Settings and improvements
+
+The project is still in development and the next updates will focus on the following tasks:
+
+- [x] Navbar component
+- [x] Hero component
+- [x] Why component
+- [x] Services component
+- [x] Footer 

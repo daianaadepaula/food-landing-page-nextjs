@@ -4,10 +4,10 @@ export default function Why({img, title, subTitle, para, classes, headColor, but
 	return(
 		<>
 			<section className={`${mainclass} text-gray-600`} body-font>
-				<div className={`container mx-auto flex px-5 py-24 ${classes} flex-col items-center max-w-7xl`}>
+				<div className={`container mx-auto flex px-5 md:py-24 py-10 ${classes} flex-col items-center max-w-7xl`}>
 
 					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-							<Image className={`object-contain object-center rounded ${imageClass} max-h-[500px]`} alt="hero" src={`/img/${img}`} width={500} height={600} />
+							<Image className={`object-contain object-center md:mb-0 mb-10 rounded ${imageClass} max-h-[500px]`} alt="hero" src={`/img/${img}`} width={500} height={600} />
 					</div>
 
 					<div className={`lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-start text-start ${class2}`}>
